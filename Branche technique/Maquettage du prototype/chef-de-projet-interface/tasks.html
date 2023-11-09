@@ -194,22 +194,7 @@
                   <div class="card">
                     <div class="d-flex justify-content-between m-2">
                         <div class="d-flex">
-                          <div class="dropdown">
-                            <button
-                              class="btn btn-secondary dropdown-toggle"
-                              type="button"
-                              data-toggle="dropdown"
-                              aria-expanded="false"
-                            >
-                              Status
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">A fair</a>
-                              <a class="dropdown-item" href="#">En cours</a>
-                              <a class="dropdown-item" href="#">En pause</a>
-                              <a class="dropdown-item" href="#">Terminée</a>
-                            </div>
-                          </div>
+                         
                           <div class="dropdown mx-3">
                             <button
                               class="btn btn-secondary dropdown-toggle"
@@ -257,7 +242,6 @@
                           <th>Descritpion</th>
                           <th>Date début</th>
                           <th>Date de fin</th>
-                          <th>Status</th>
                           <th>Action</th>
                         </tr>
                       </thead>
@@ -267,7 +251,6 @@
                           <td>Gerer le group</td>
                           <td>09/20/2023</td>
                           <td>09/25/2023</td>
-                          <td><p class="btn btn-secondary">A faire</p></td>
                           <td>
                             <a href="" class="btn btn-primary"
                               ><i class="fa-solid fa-pen-to-square"></i
@@ -283,7 +266,6 @@
                           <td>09/25/2023</td>
                           <td>10/02/2023</td>
                          
-                          <td><p class="btn btn-success">en cours</p></td>
                           <td>
                             <a href="" class="btn btn-primary"
                               ><i class="fa-solid fa-pen-to-square"></i
@@ -299,7 +281,6 @@
                           <td>10/02/2023</td>
                           <td>12/01/2023</td>
                           
-                          <td><p class="btn btn-info">Terminée</p></td>
                           <td>
                             <a href="" class="btn btn-primary"
                               ><i class="fa-solid fa-pen-to-square"></i
@@ -315,7 +296,6 @@
                             <td>10/02/2023</td>
                             <td>12/01/2023</td>
                             
-                            <td><p class="btn btn-info">Terminée</p></td>
                             <td>
                               <a href="" class="btn btn-primary"
                                 ><i class="fa-solid fa-pen-to-square"></i
@@ -326,38 +306,9 @@
                             </td>
                           </tr>
                         
-                      </tbody>
+                      </tbody>                    
                     </table>
-                    <div class="d-flex m-2">
-                      <form action="" method="post">
-                        <button type="submit" class="btn btn-success">Exporter</button>
-                      </form>
-            
-                      <form
-                        class="ml-4"
-                        action=""
-                        method="post"
-                        id="importForm"
-                        enctype="multipart/form-data"
-                      >
-                        <input
-                          type="file"
-                          id="fileInputImporter"
-                          name="file"
-                          style="display: none"
-                        />
-                        <button
-                          type="button"
-                          class="btn btn-primary"
-                          id="chooseFileButtonImporter"
-                        >
-                          Importer
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-
-                  <div
+                    <div
                     class="dataTables_paginate paging_simple_numbers w-25 container"
                     id="example2_paginate"
                   >
@@ -450,6 +401,35 @@
                       </li>
                     </ul>
                   </div>
+                    <div class="d-flex m-2">
+                      <form action="" method="post">
+                        <button type="submit" class="btn btn-success">Exporter</button>
+                      </form>
+            
+                      <form
+                        class="ml-4"
+                        action=""
+                        method="post"
+                        id="importForm"
+                        enctype="multipart/form-data"
+                      >
+                        <input
+                          type="file"
+                          id="fileInputImporter"
+                          name="file"
+                          style="display: none"
+                        />
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          id="chooseFileButtonImporter"
+                        >
+                          Importer
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+         
                 </div>
               </div>
             </div>

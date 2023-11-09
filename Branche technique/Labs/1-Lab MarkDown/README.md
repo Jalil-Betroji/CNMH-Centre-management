@@ -1,6 +1,23 @@
 # lab-markdown
-## Work to do: what is the steps to make a good markdown file
-Welcome to the Lab Markdown repository! This space is dedicated<br> to understanding and mastering the art of Markdown, a lightweight and easy-to-use markup language that allows you to format plain text.<br> Markdown is widely used for creating documentation, README files, and even blogs.<br> In this lab, you will learn the fundamentals of Markdown syntax, including headers, lists, links, code blocks, and more.<br>
+## Work to do: 
+Bienvenue dans le projet "Arbre des Compétences Projet" ! Cet exercice vous permettra de suivre vos compétences et leur amélioration au fil du temps en créant un arbre des compétences spécifique à vos projets de développement web. Une fois que vous avez créé votre arbre des compétences, votre tâche consiste à rédiger un bon fichier README décrivant les étapes de votre projet.
+
+**Exercice**
+1. **Document Your Skills Tree Project :**
+
+  - Create a Markdown file named SkillsTree.md.
+  - Use Markdown formatting techniques to clearly present your skills tree.
+  - Explain each skill and its importance in the context of web development.
+2. **Write a README for Your Project :**
+
+  - Create a Markdown file named README.md.
+  - Follow the guidelines for writing a good README, such as clarity, well-defined sections, installation instructions, usage, contribution guidelines, licensing, images, and links.
+  - Describe the steps to create a skills tree project similar to yours.
+3. **Submit Your Project :**
+
+  - Create a folder named SkillsTreeProject in this repository.
+  - Add your SkillsTree.md and README.md files to this folder.
+
 
 Feel free to explore the resources and exercises in this repository to enhance your Markdown skills.<br> Whether you are a beginner or an experienced developer, mastering Markdown will empower you to create clear and well-formatted documents for your projects.<br> Let's dive in and elevate your Markdown game!<br>
 
