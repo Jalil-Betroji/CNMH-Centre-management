@@ -209,6 +209,7 @@
                               <a class="dropdown-item" href="#">Derniere date</a>
                             </div>
                           </div>
+  
                           <div class="dropdown mx-3">
                             <button
                               class="btn btn-primary dropdown-toggle"
@@ -224,6 +225,7 @@
                               <a class="dropdown-item" href="#">projet CNMH</a>
                             </div>
                           </div>
+                          
                         </div><a href="add-project.html" class="btn btn-success"
                         >Ajouter un projet</a
                       >
@@ -304,33 +306,12 @@
                         
                       </tbody>
                     </table>
-                    <div class="d-flex m-2">
-                      <form action="" method="post">
-                        <button type="submit" class="btn btn-success">Exporter</button>
-                      </form>
-            
-                      <form
-                        class="ml-4"
-                        action=""
-                        method="post"
-                        id="importForm"
-                        enctype="multipart/form-data"
-                      >
-                        <input
-                          type="file"
-                          id="fileInputImporter"
-                          name="file"
-                          style="display: none"
-                        />
-                        <button
-                          type="button"
-                          class="btn btn-primary"
-                          id="chooseFileButtonImporter"
-                        >
-                          Importer
-                        </button>
-                      </form>
-                    </div>
+                    <div class="float-left mb-3 mx-2">
+                      <a class="btn btn-default swalDefaultQuestion" href="http://127.0.0.1:8000/export"><i class="fas fa-download"></i>Exporter</a>
+          
+                      <button type="button" class="btn btn-default swalDefaultQuestion">
+                          <i class="fas fa-file-import"></i> Importer            </button>
+                  </div>
                   </div>
 
                   <div
