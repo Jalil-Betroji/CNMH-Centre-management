@@ -5,7 +5,12 @@
 - Ajouter l'authentification pour [`Lab-Laravel-crud-basic`](https://github.com/Jalil-Betroji/lab-crud.git) .
 - Additionner l'autorisation pour [`Lab-Laravel-crud-basic`](https://github.com/Jalil-Betroji/lab-crud.git) en utilisant uniquement `gate` sans recourir aux `policies`.
 
-### Command used in the application
+### Référence
+- [Authentififcation](https://laravel.com/docs/10.x/authentication)
+- [authorization référence 1](https://laravel.com/docs/10.x/authorization)
+- [authorization référence 2](https://jhadiary.wordpress.com/2020/03/14/laravel-call-a-routine-or-function-before-each-route-action-is-called/ )
+
+#### Command used in the application
 
 1. Clone the Repository:
 
